@@ -27,11 +27,11 @@ We have a static card already in our index.html, this is so you have a frame of 
           
 ## Fetch and Update DOM with People 
 
-On the `index.html` page, there is a `div` with the `id` "people".
+<!-- On the `index.html` page, there is a `div` with the `id` "people". -->
 
-When the page loads, make a 'GET' request to fetch all the person objects. With the
+<!-- When the page loads, make a 'GET' request to fetch all the person objects. With the
 response data, make a `<div class="card p-2 m-2" style="width: 18rem;">` for each person and add it to the
-people `div`.
+people `div`. -->
 
 ## Add Person Info to the Card
 
@@ -41,22 +41,22 @@ Each card should have the following child elements:
   * `div` tag with a class "card-body"
   
   
-The `div` with class "card-body" has child elements: 
-  * `h5` tag with a class "card-title" whose text is set to the person's name property
-  *  `p` tag that conditionally renders Either Alum or Instructor based on a person's 'instructor?' property
-  *  `p` tag that displays the person's pronouns 
-  *  `p` tag that conditionally renders whether or not this person attended Flatiron School. 
-  *  `a` with an href set to the person's github, and a class "btn btn-primary" whose text is set to "Go to <person's first name> 's GitHub"
-  
-          How we get a person's first name from their name? 
+<!-- The `div` with class "card-body" has child elements:  -->
+  <!-- * `h5` tag with a class "card-title" whose text is set to the person's name property -->
+  <!-- *  `p` tag that conditionally renders Either Alum or Instructor based on a person's 'instructor?' property -->
+  <!-- *  `p` tag that displays the person's pronouns  -->
+  <!-- *  `p` tag that conditionally renders whether or not this person attended Flatiron School.  -->
+  <!-- *  `a` with an href set to the person's github, and a class "btn btn-primary" whose text is set to "Go to <person's first name> 's GitHub" -->
+<!--   
+          <!-- How we get a person's first name from their name? 
           What does conditionally rendering mean?? (I'll post a link at the end of this readme)
-          Hint => look up ternary operators, but feel free to ask for help if this becomes confusing
+          Hint => look up ternary operators, but feel free to ask for help if this becomes confusing -->
           
-  **All `p` tags have a class "card-text"**
+  **All `p` tags have a class "card-text"** -->
   
 
 After all of that, the person card should resemble:
-
+<!-- 
 ```html
   <div class="card p-2 m-2" style="width: 18rem;">
             <img src=person_image_url class="card-img-top" alt=person_first_name_and_either_alum_instructor>
@@ -67,7 +67,7 @@ After all of that, the person card should resemble:
               <p class="card-text">Attended Flatiron?  person_attended_flatiron </p>
               <a href= person_github_url class="btn btn-primary"> Go to person_first_name's GitHub </a>
             </div>
-  </div>
+  </div> -->
 ```
 
 
